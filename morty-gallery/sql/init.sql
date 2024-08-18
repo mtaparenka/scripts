@@ -8,7 +8,7 @@ CREATE TABLE images (
 
 CREATE TABLE tags (
 	id bigint PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-	name text not null
+	name text not null UNIQUE
 );
 
 CREATE TABLE image_tags (
