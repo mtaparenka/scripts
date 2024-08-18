@@ -1,6 +1,6 @@
 CREATE TABLE images (
 	id bigint PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-	host_name TEXT not null,
+	uri TEXT not null,
 	original_name TEXT not null,
 	date_taken TIMESTAMP not null,
 	date_uploaded TIMESTAMP not null
